@@ -21,7 +21,7 @@ const config = {
         categoryId: "DIC_kwDOL9hH7M4CiOPg",
       },
     },
-    blogDir: "Development",
+    blogDir: "/Development",
     // links to the pages you want to link to in the navbar and in the footer
     navLinks: [
       { href: "/", name: "Home" },
