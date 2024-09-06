@@ -11,7 +11,6 @@ const config = {
     //   provider: "kbar",
     // },
     showComments: true,
-    showSidebar: true,
     showLinkPreviews: true,    
     comments: {
       provider: "giscus",
