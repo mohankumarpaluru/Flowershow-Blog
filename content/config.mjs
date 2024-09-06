@@ -7,9 +7,9 @@ const config = {
     description: "These are my published Obsidian notes on a range of topics that I find interesting or cool",
     author: "Mohan",
     domain: "https://notes.trixtertempdrive.eu.org/",
-    search: {
-      provider: "kbar",
-    },
+    // search: {
+    //   provider: "kbar",
+    // },
     showComments: true,
     comments: {
       provider: "giscus",
@@ -23,8 +23,8 @@ const config = {
     // links to the pages you want to link to in the navbar and in the footer
     navLinks: [
       { href: "/home", name: "Home" },
-      { href: "/about", name: "About" },
-      { href: "/AI/AI", name: "AI" }, // Assuming AI.md is the main page for AI
+      { href: "/About", name: "About" },
+      { href: "/AI/Fundamentals/AI", name: "AI" }, // Assuming AI.md is the main page for AI
       { href: "/AWS/AWS", name: "AWS" }, // You might want to choose a key file or landing page
       ]};
   
