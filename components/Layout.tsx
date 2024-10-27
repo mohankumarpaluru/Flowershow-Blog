@@ -7,11 +7,11 @@ import {
     collectHeadings,
     Nav,
     Comments,
-    Footer,
     EditThisPage,
     TableOfContents,
     SiteToc,
 } from "@portaljs/core";
+import { Footer } from "../components/footer";
 import type {
     NavItem,
     NavGroup,
