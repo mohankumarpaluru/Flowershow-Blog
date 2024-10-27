@@ -31,7 +31,7 @@ export const Footer: React.FC<Props> = ({ links, author }) => {
                 </div>
             )}
             <p className="flex items-center justify-center gap-2">
-                <span>© {new Date().getFullYear()}  <BookOpen className="h-6 w-6 text-primary" /> </span>
+                <span>© {new Date().getFullYear()} </span>
                 {author.url ? (
                     <a
                         href={author.url}
