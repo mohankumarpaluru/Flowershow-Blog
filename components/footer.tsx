@@ -31,7 +31,7 @@ export const Footer: React.FC<Props> = ({ links, author }) => {
                 </div>
             )}
             <p className="flex items-center justify-center gap-2">
-                <span>© {new Date().getFullYear()} </span>
+                <span>© {new Date().getFullYear()}  <BookOpen className="h-6 w-6 text-primary" /> </span>
                 {author.url ? (
                     <a
                         href={author.url}
@@ -46,7 +46,7 @@ export const Footer: React.FC<Props> = ({ links, author }) => {
                                 className="h-6 block"
                             />
                         )}
-                        <span>{author.name}</span>
+                        <span>{author.name}'s Journal </span>
                     </a>
                 ) : (
                     <span
@@ -59,10 +59,10 @@ export const Footer: React.FC<Props> = ({ links, author }) => {
                                 className="h-6 block"
                             />
                         )}
-                        <span>{author.name}</span>
+                        <span>{author.name}'s Journal </span>
                     </span>
                 )}
-                <span>'s Joournal <BookOpen className="h-6 w-6 text-primary" />. All rights reserved.</span>
+                <span> All rights reserved.</span>
             </p>
         </footer>
     );
